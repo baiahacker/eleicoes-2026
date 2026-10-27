@@ -1,0 +1,7 @@
+# logs originais das urnas (centenas de MB): rode scripts/logs_urna.py para baixar
+brutos/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.DS_Store
