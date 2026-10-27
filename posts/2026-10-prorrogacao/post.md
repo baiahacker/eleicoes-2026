@@ -2,7 +2,7 @@
 
 2º turno, 25/10/2026.
 
-Depois da vitória de Lula, um tipo de frase começou a circular: "a eleição foi decidida na prorrogação". O conflito causado pelo boicote ao transporte público em muitas cidades brasileiras levou a uma decisão judicial do STF que estendeu a votação até as 19h em alguns lugares, e a divulgação dos resultados ficou parada das 17h07 às 19h04. Para muita gente, esse intervalo bastou para criar desconfiança, inclusive Trump. [link para a decisão]
+Depois da vitória de Lula, um tipo de frase começou a circular: "a eleição foi decidida na prorrogação". O conflito causado pelo boicote ao transporte público em muitas cidades brasileiras levou a uma decisão judicial do STF preservando os direitos dos eleitores. Isso estendeu a votação até as 19h em alguns lugares, e a divulgação dos resultados ficou parada das 17h07 às 19h04. Para muita gente, esse intervalo bastou para criar desconfiança, inclusive com pouca energia, [Trump](https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/26/trump-diz-que-eleicao-presidencial-no-brasil-pareceu-fraudada.ghtm).
 
 Aqui a gente prefere olhar os dados. E esses dados existem: o TSE publica o **log de cada urna**, um arquivo que registra cada evento da máquina com data e hora, inclusive cada vez que um voto é computado. O log não diz em quem a pessoa votou, porque o voto é secreto, mas diz **a que horas** ela votou.
 
@@ -12,11 +12,11 @@ Baixamos esses logs e contamos.
 
 Começamos olhando perto de casa. Abrimos **todas as 1.439 urnas** de Itu, Salto, Cabreúva, Indaiatuba e Porto Feliz, que somaram 404.343 votos.
 
-![Votos de 15 em 15 minutos nas urnas de Itu e região](1_regiao_itu.png)
+![Votos de 15 em 15 minutos nas urnas de Itu e biorregião](1_regiao_itu.png)
 
-- **62 votos** foram dados depois das 17h, em 59 urnas. Isso é **0,015%** dos votos da região.
+- **62 votos** foram dados depois das 17h, em 59 urnas. Isso é **0,015%** dos votos da biorregião.
 - Todos esses votos aconteceram **até as 17h08**. Só um passou das 17h05, em Salto.
-- **Nenhuma urna da região ficou aberta até as 19h.** A última foi encerrada às 17h19, em Porto Feliz.
+- **Nenhuma urna da biorregião ficou aberta até as 19h.** A última foi encerrada às 17h19, em Porto Feliz.
 
 Por cidade:
 
@@ -28,7 +28,7 @@ Por cidade:
 | Porto Feliz | 117 | 33.753 | 5 | 17h02 |
 | Cabreúva | 105 | 29.081 | 5 | 17h01 |
 
-Esses votos depois das 17h não têm nada de irregular. A regra de sempre é que quem já está na fila às 17h vota, e o mesário só encerra a urna depois do último eleitor. Aqui na região, a fila acabou em poucos minutos.
+Esses votos depois das 17h não têm nada de irregular. A regra de sempre é que quem já está na fila às 17h vota, e o mesário só encerra a urna depois do último eleitor. Aqui na biorregião, a fila acabou em poucos minutos.
 
 ## O Brasil: cerca de 28 mil votos depois das 17h
 
@@ -91,4 +91,4 @@ A prorrogação garantiu o direito de votar a quem enfrentou o boicote ao transp
 - Seções agregadas votam na urna da seção principal e entram somadas a ela.
 - "Urna aberta até as 19h" significa que o mesário só encerrou a votação a partir das 18h55.
 - A estimativa nacional usa um sorteio de 150 urnas por estado, com semente fixa, então qualquer pessoa pode repetir o mesmo sorteio. A faixa de 95% considera a variação entre as urnas sorteadas.
-- O script é aberto e funciona para qualquer cidade: `logs_urna.py`, no repositório [baiahacker/eleicoes-2026](https://github.com/baiahacker/eleicoes-2026).
+- O script é aberto e funciona para qualquer cidade, [veja aqui](https://github.com/baiahacker/eleicoes-2026).

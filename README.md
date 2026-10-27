@@ -116,7 +116,7 @@ independente, as variâncias somam no total do país.
 
 - O log diz a hora do voto, não em quem se votou.
 - "Urna aberta até as 19h" quer dizer que o mesário só encerrou a votação a partir de 18h55.
-- O número nacional é uma estimativa por amostra, com faixa de 95% de confiança. As cidades da região de Itu e as
+- O número nacional é uma estimativa por amostra, com faixa de 95% de confiança. As cidades da biorregião de Itu e as
   9 cidades com urnas até as 19h foram contadas urna por urna, sem amostra.
 - As 9 cidades são as que apareceram na amostra nacional. Pode haver outras cidades com urnas abertas até as 19h
   que o sorteio não pegou; os votos delas já estão dentro da estimativa nacional.

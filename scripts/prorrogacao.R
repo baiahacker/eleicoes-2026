@@ -30,7 +30,7 @@ salvar <- function(g, nome, w = 12, h = 7.5) ggsave(file.path(out, nome), g, wid
 FONTE <- "Dados: logs das urnas do 2º turno, TSE (resultados.tse.jus.br). Horários de Brasília. Análise: Baia Hackerspace."
 num <- character()
 
-# ---- 1. região de Itu: todas as urnas, votos de 15 em 15 minutos --------------------------------------------------
+# ---- 1. biorregião de Itu: todas as urnas, votos de 15 em 15 minutos --------------------------------------------------
 sp <- ler("saida/logs_urna_p3221_sp.csv")
 q <- grep("^q\\d{4}$", names(sp), value = TRUE)
 m <- sp[, c(list(nm = nm_mun[1], secoes = .N, votos = sum(votos, na.rm = TRUE), a17 = sum(votos_apos_17h, na.rm = TRUE),
@@ -43,15 +43,15 @@ tot <- m[, .(secoes = sum(secoes), votos = sum(votos), a17 = sum(a17), s17 = sum
 g1 <- ggplot(r, aes(h, votos, fill = nm)) + geom_col(width = 0.85) +
   geom_vline(xintercept = 4.5, linetype = "dashed", colour = "grey20") +
   annotate("label", x = 4.6, y = max(r[, sum(votos), by = h]$V1) * 0.75, hjust = 0, size = 4.4, linewidth = 0, fill = alpha("white", 0.9),
-           label = sprintf("Depois das 17h: %s votos\nem %s urnas, todos até %s.\nNenhuma urna da região\nficou aberta até as 19h.",
+           label = sprintf("Depois das 17h: %s votos\nem %s urnas, todos até %s.\nNenhuma urna da biorregião\nficou aberta até as 19h.",
                            tot$a17, tot$s17, sub(":", "h", substr(max(m$ultimo), 1, 5)))) +
   scale_fill_manual(values = c("#2c5bd6", "#c8102e", "#1f7a3f", "#9a6a00", "#7b3fb5"), name = NULL) +
   scale_y_continuous(labels = label_number(big.mark = ".", decimal.mark = ",")) +
-  labs(title = "Itu e região: a votação acabou às 17h",
+  labs(title = "Itu e biorregião: a votação acabou às 17h",
        subtitle = sprintf("Votos registrados nas %s urnas de Itu, Salto, Cabreúva, Indaiatuba e Porto Feliz, de 15 em 15 minutos.", mil(tot$secoes)),
        x = NULL, y = "votos", caption = FONTE) + tema
 salvar(g1, "1_regiao_itu.png")
-num <- c(num, sprintf("Região de Itu: %s urnas, %s votos; %s votos após 17h em %s urnas (%s%%); %s após 17h05; último voto %s; encerramento mais tardio %s",
+num <- c(num, sprintf("Biorregião de Itu: %s urnas, %s votos; %s votos após 17h em %s urnas (%s%%); %s após 17h05; último voto %s; encerramento mais tardio %s",
                       mil(tot$secoes), mil(tot$votos), tot$a17, tot$s17, pp(100 * tot$a17 / tot$votos, 3), tot$a1705, max(m$ultimo), max(m$encerrar)))
 num <- c(num, m[, sprintf("  %s: %s urnas, %s votos, %s após 17h, último %s, encerrou até %s", nome(nm), secoes, mil(votos), a17, ultimo, encerrar)])
 
