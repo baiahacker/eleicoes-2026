@@ -1,0 +1,59 @@
+Região de Itu: 1.439 urnas, 404.343 votos; 62 votos após 17h em 59 urnas (0,015%); 1 após 17h05; último voto 17:08:27; encerramento mais tardio 17:19:27
+  Indaiatuba: 571 urnas, 161.570 votos, 22 após 17h, último 17:02:57, encerrou até 17:12:43
+  Itu: 373 urnas, 100.904 votos, 15 após 17h, último 17:03:24, encerrou até 17:11:19
+  Salto: 273 urnas, 79.035 votos, 15 após 17h, último 17:08:27, encerrou até 17:10:30
+  Porto Feliz: 117 urnas, 33.753 votos, 5 após 17h, último 17:02:16, encerrou até 17:19:27
+  Cabreúva: 105 urnas, 29.081 votos, 5 após 17h, último 17:01:22, encerrou até 17:09:54
+Brasil: 4.050 urnas; estimativa 28.317 votos após 17h (95%: 22.326 a 34.309) = 0,023% de 123.403.624 válidos; diferença 4.417.850 = 156 vezes
+  RO: 0,058% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:09:50
+  DF: 0,054% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:04:20
+  MT: 0,051% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:04:00
+  PI: 0,049% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:27:41
+  RR: 0,046% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:03:46
+  BA: 0,044% após 17h, 2 de 150 urnas encerradas a partir de 18h55, último voto 18:52:59
+  AP: 0,043% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:02:59
+  AM: 0,041% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:02:29
+  AL: 0,037% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:06:14
+  AC: 0,036% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:02:59
+  MA: 0,030% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:04:28
+  MS: 0,026% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:02:16
+  RJ: 0,025% após 17h, 4 de 150 urnas encerradas a partir de 18h55, último voto 17:16:11
+  PA: 0,025% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:03:17
+  TO: 0,024% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:03:13
+  PB: 0,023% após 17h, 6 de 150 urnas encerradas a partir de 18h55, último voto 18:03:50
+  SP: 0,023% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:06:44
+  ES: 0,022% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:04:59
+  RN: 0,022% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:03:07
+  PE: 0,021% após 17h, 7 de 150 urnas encerradas a partir de 18h55, último voto 18:34:21
+  MG: 0,019% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:02:18
+  GO: 0,013% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:03:17
+  SE: 0,011% após 17h, 2 de 150 urnas encerradas a partir de 18h55, último voto 17:02:39
+  SC: 0,010% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:05:33
+  CE: 0,008% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:03:08
+  PR: 0,005% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:02:11
+  RS: 0,003% após 17h, 0 de 150 urnas encerradas a partir de 18h55, último voto 17:00:40
+Cidades com urnas até 19h: 25.639 urnas, 7.802.267 votos; 3.496 abertas até 19h (13,6%) em 592 locais; nelas 2.424 votos após 17h, 2.001 após 17h05, 1.818 sem nenhum voto após 17h
+  todas as urnas das cidades: 4.778 após 17h (0,061%), 2.272 após 17h05, 1.587 após 17h30
+  Rio de Janeiro (RJ): 12635 urnas, 2115 abertas até 19h em 348 locais, 3.814.870 votos, 1334 após 17h05, 1039 após 17h30, último 19:01:56
+  Salvador (BA): 5124 urnas, 744 abertas até 19h em 120 locais, 1.647.069 votos, 683 após 17h05, 372 após 17h30, último 19:01:48
+  João Pessoa (PB): 1714 urnas, 292 abertas até 19h em 44 locais, 509.916 votos, 117 após 17h05, 79 após 17h30, último 18:53:48
+  Recife (PE): 3481 urnas, 224 abertas até 19h em 56 locais, 1.062.907 votos, 100 após 17h05, 69 após 17h30, último 18:52:33
+  Cabo de Santo Agostinho (PE): 496 urnas, 41 abertas até 19h em 10 locais, 148.495 votos, 16 após 17h05, 14 após 17h30, último 18:45:40
+  Aracaju (SE): 1354 urnas, 40 abertas até 19h em 8 locais, 361.102 votos, 12 após 17h05, 9 após 17h30, último 18:56:42
+  Caruaru (PE): 708 urnas, 29 abertas até 19h em 4 locais, 225.808 votos, 8 após 17h05, 3 após 17h30, último 18:20:50
+  Floresta (PE): 75 urnas, 10 abertas até 19h em 1 locais, 20.384 votos, 2 após 17h05, 2 após 17h30, último 18:17:35
+  Cristinápolis (SE): 52 urnas, 1 abertas até 19h em 1 locais, 11.716 votos, 0 após 17h05, 0 após 17h30, último 17:01:18
+  horário de encerramento (faixas de 15 min):
+    17h00: 21905 urnas
+    17h15: 154 urnas
+    17h30: 23 urnas
+    17h45: 10 urnas
+    18h00: 7 urnas
+    18h15: 14 urnas
+    18h30: 9 urnas
+    18h45: 390 urnas
+    19h00: 3121 urnas
+    19h15: 3 urnas
+    19h30: 1 urnas
+    19h45: 1 urnas
+    antes das 17h: 1 urnas
