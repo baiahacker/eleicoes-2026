@@ -53,6 +53,8 @@ O `logs_urna.py`:
   Amazonas, a urna fica pronta perto das 6h locais, e o script usa 2 horas de diferença;
 - pula as seções agregadas, que votam na urna da seção principal.
 
+Requer Python 3.8+, só com a biblioteca padrão. O `7z` do sistema é usado se algum log vier em 7z.
+
 Uso:
 
 ```bash
@@ -90,20 +92,6 @@ As colunas do CSV:
 
 Todos os horários estão no horário de Brasília.
 
-## Como refazer o post
-
-Requer Python 3.8+ (só biblioteca padrão; o `7z` é usado se algum log vier em 7z) e R com os pacotes `data.table`,
-`ggplot2`, `scales` e `ragg`.
-
-```bash
-python3 scripts/logs_urna.py ...                 # os três comandos acima (ou use os CSVs que já estão em saida/)
-Rscript scripts/prorrogacao.R                    # imagens, numeros.txt e urnas_abertas_19h.csv
-```
-
-A estimativa nacional usa um estimador de razão por UF: a fração de votos depois das 17h na amostra, multiplicada
-pelos votos válidos da UF. O erro-padrão trata cada urna como um conglomerado. Como as UFs são sorteadas de forma
-independente, as variâncias somam no total do país.
-
 ## De onde vêm os dados
 
 - `saida/`: logs das urnas do 2º turno, baixados de resultados.tse.jus.br em 26/10/2026.
@@ -116,7 +104,8 @@ independente, as variâncias somam no total do país.
 
 - O log diz a hora do voto, não em quem se votou.
 - "Urna aberta até as 19h" quer dizer que o mesário só encerrou a votação a partir de 18h55.
-- O número nacional é uma estimativa por amostra, com faixa de 95% de confiança. As cidades da biorregião de Itu e as
+- O número nacional é uma estimativa por amostra, com faixa de 95% de confiança: a fração de votos depois das 17h
+  nas urnas sorteadas de cada UF, multiplicada pelos votos válidos da UF. As cidades da biorregião de Itu e as
   9 cidades com urnas até as 19h foram contadas urna por urna, sem amostra.
 - As 9 cidades são as que apareceram na amostra nacional. Pode haver outras cidades com urnas abertas até as 19h
   que o sorteio não pegou; os votos delas já estão dentro da estimativa nacional.
